@@ -1,0 +1,52 @@
+.voice-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.voice-input__button {
+  margin: 10px;
+}
+
+.voice-input__button--record {
+  background-color: #4caf50;
+}
+
+.voice-input__button--stop {
+  background-color: #f44336;
+}
+
+.voice-input__button--replay {
+  background-color: #2196f3;
+}
+
+.voice-input__button--try-again {
+  background-color: #f44336;
+}
+
+.voice-input__progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.voice-input__progress-bar {
+  width: 100%;
+}
+
+.voice-input__recorded {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.voice-input__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: red;
+}
